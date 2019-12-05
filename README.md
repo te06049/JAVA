@@ -34,6 +34,7 @@ class Test6{
 ```
 문자열과 문자를 입력 받아, 해당 문자열에서 문자가 몇 번 검색되었는지 출력하는 프로그램이다.
 
+
 ##2. Test5.java
 ```java
 import java.util.Scanner;
@@ -60,3 +61,28 @@ class Test5{
 }
 ```
 사용자로부터 두 정수 a,b 입력받아 a, b사이 수들 (a, b포함)의 약수들 출력하는 프로그램.
+
+
+##3. Test2.java
+```java
+import java.util.Scanner;
+
+class Test2{
+	public static void main(String [] args){
+		int x;
+		
+		Scanner s = new Scanner (System.in);
+		
+		System.out.print("몇 단: ");
+		x = s.nextInt();
+		
+		for(int i = 1; i <= 9; i++){
+			System.out.printf("%d X %d = %d\n", x, i, x*i);
+		}
+	}
+}
+```
+구구단 출력하는 프로그램.
+
+
+
